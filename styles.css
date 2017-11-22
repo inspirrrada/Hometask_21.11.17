@@ -1,0 +1,72 @@
+.screen {
+	height: 300px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.screen-1 .block-1 {
+	padding: 10px;
+}
+
+.screen-2 .block-1 {
+	padding: 10px;
+	width: 300px;
+	float: left;
+}
+
+.screen-2 .block-2 {
+	padding: 10px;
+	margin-left: 350px;
+}
+
+.screen-3 .block-1 {
+	padding: 10px;
+	width: 300px;
+	float: right;
+}
+
+.screen-3 .block-2 {
+	padding: 10px;
+	margin-right: 350px;
+}
+
+.screen-4 .block-1 {
+	padding: 10px;
+	width: 300px;
+	float: left;
+}
+
+.screen-4 .block-2 {
+	padding: 10px;
+	width: 300px;
+	float: right;
+}
+
+.screen-4 .block-3 {
+	padding: 10px;
+	margin-right: 350px;
+	margin-left: 350px;
+}
+
+.color {
+	background-color: green;
+}
+
+@media (max-width: 1200px) and (min-width: 1025px) {
+	.color {
+		background-color: red;
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 481px) {
+	.color {
+		background-color: yellow;
+	}
+}
+
+@media (max-width: 480px) and (min-width: 0px) {
+	.color {
+		background-color: black;
+		color: white;
+	}
+}
